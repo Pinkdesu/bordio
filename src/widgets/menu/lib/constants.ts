@@ -1,36 +1,36 @@
-import { IMenuItem } from 'entities/menuItem';
+import { MenuItem } from './types';
 
-const PROJECTS_DATA: IMenuItem[] = [
+const PROJECTS_DATA: MenuItem[] = [
   {
     name: 'Marketing',
-    path: '/',
+    path: '/marketing',
   },
   {
     name: 'Mobile App',
-    path: '/',
+    path: '/mobile-app',
   },
 ];
 
-const FAVORITES_DATA: IMenuItem[] = [
+const FAVORITES_DATA: MenuItem[] = [
   {
     name: 'Marketing',
-    path: '/',
+    path: '/marketing',
   },
   {
     name: 'Landing Pages',
-    path: '/',
+    path: '/landing-pages',
   },
   {
     name: 'Wedding',
-    path: '/',
+    path: '/wedding',
   },
   {
     name: 'Mobile App',
-    path: '/',
+    path: '/mobile-app',
   },
   {
     name: 'House Construction',
-    path: '/',
+    path: '/house-construction',
   },
 ];
 

@@ -23,6 +23,7 @@ interface ITheme {
     red400: string;
 
     gray800: string;
+    gray500: string;
     gray400: string;
 
     purple800: string;
@@ -32,6 +33,7 @@ interface ITheme {
   font: {
     small: string;
     normal: string;
+    big: string;
   };
 
   fontWeight: {
@@ -51,6 +53,10 @@ interface ITheme {
     large: string;
     medium: string;
     small: string;
+  };
+
+  sizis: {
+    menu: string;
   };
 }
 

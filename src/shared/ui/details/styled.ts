@@ -33,7 +33,7 @@ const Content = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 18px;
-  gap: 18px;
+  gap: 6px;
 `;
 
 export { Button, MarkerIcon, Text, Content };

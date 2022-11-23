@@ -25,6 +25,7 @@ const baseTheme: ITheme = {
     red400: '#FFDFBA',
 
     gray800: '#A5A5A5',
+    gray500: '#F5F8FA',
     gray400: '#F0F0F0',
 
     purple800: '#8E4778',
@@ -34,6 +35,7 @@ const baseTheme: ITheme = {
   font: {
     small: '0.8125rem',
     normal: '0.875rem',
+    big: '1.125rem',
   },
 
   fontWeight: {
@@ -53,6 +55,10 @@ const baseTheme: ITheme = {
     large: '(max-width: 960px)',
     medium: '(max-width: 720px)',
     small: '(max-width: 540px)',
+  },
+
+  sizis: {
+    menu: '219px',
   },
 };
 

@@ -18,8 +18,11 @@ const GlobalStyles = createGlobalStyle`
   }
 
   #root {
-    display: flex;
     height: 100%;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   input {
@@ -33,7 +36,7 @@ const GlobalStyles = createGlobalStyle`
 `;
 
 const MainContent = styled.main`
-  flex: 1 1;
+  margin-left: ${({ theme }) => theme.sizis.menu};
 `;
 
 export { GlobalStyles, MainContent };
