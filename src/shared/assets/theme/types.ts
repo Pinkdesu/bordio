@@ -23,12 +23,14 @@ interface ITheme {
     red500: string;
     red400: string;
 
+    gray900: string;
     gray800: string;
     gray700: string;
     gray600: string;
     gray500: string;
     gray400: string;
     gray300: string;
+    gray200: string;
 
     purple800: string;
     purple400: string;

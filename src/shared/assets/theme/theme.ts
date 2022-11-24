@@ -25,12 +25,14 @@ const baseTheme: ITheme = {
     red500: '#FEC6B7',
     red400: '#FFDFBA',
 
+    gray900: '#E8EBEF',
     gray800: '#8C939F',
     gray700: '#A5A5A5',
     gray600: '#E1E4E7',
     gray500: '#F5F8FA',
     gray400: '#F0F0F0',
     gray300: '#F0F1F2',
+    gray200: '#F3F3F3',
 
     purple800: '#8E4778',
     purple400: '#F2BAE1',

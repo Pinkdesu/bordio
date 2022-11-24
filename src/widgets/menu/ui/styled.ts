@@ -5,7 +5,7 @@ import { getTransition } from 'shared/helpers';
 import { Search } from 'shared/ui/search';
 import { Details } from 'shared/ui/details';
 
-import { MenuItem } from '../lib';
+import { MenuItem } from '../model';
 
 const Menu = styled.menu`
   display: flex;

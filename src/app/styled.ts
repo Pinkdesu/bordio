@@ -15,7 +15,6 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     height: 1px;
     min-height: 100vh;
-    background-color: ${({ theme }) => theme.color.gray500}
   }
 
   #root {

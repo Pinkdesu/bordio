@@ -5,6 +5,8 @@ const Container = styled.div`
 `;
 
 const PageContainer = styled.div`
+  display: flex;
+  flex-direction: column;
   flex: 1 1;
 `;
 

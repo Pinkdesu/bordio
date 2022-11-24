@@ -2,7 +2,7 @@ import userJPG from 'shared/assets/images/user.jpg';
 
 import * as C from 'shared/components';
 
-import { MenuItem, PROJECTS_DATA, FAVORITES_DATA } from '../lib';
+import { MenuItem, PROJECTS_DATA, FAVORITES_DATA } from '../model';
 import * as S from './styled';
 import { Logo } from './logo';
 
