@@ -2,7 +2,10 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   display: flex;
-  height: 200vh;
 `;
 
-export { Container };
+const PageContainer = styled.div`
+  flex: 1 1;
+`;
+
+export { Container, PageContainer };

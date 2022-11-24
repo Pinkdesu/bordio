@@ -6,6 +6,7 @@ const baseTheme: ITheme = {
     secondary: '#8C939F',
     error: '#F21247',
 
+    black: '#000000',
     white: '#FFFFFF',
 
     ocean800: '#0F1D40',
@@ -24,15 +25,19 @@ const baseTheme: ITheme = {
     red500: '#FEC6B7',
     red400: '#FFDFBA',
 
-    gray800: '#A5A5A5',
+    gray800: '#8C939F',
+    gray700: '#A5A5A5',
+    gray600: '#E1E4E7',
     gray500: '#F5F8FA',
     gray400: '#F0F0F0',
+    gray300: '#F0F1F2',
 
     purple800: '#8E4778',
     purple400: '#F2BAE1',
   },
 
   font: {
+    tiny: '0.625rem',
     small: '0.8125rem',
     normal: '0.875rem',
     big: '1.125rem',
@@ -50,15 +55,12 @@ const baseTheme: ITheme = {
     big: '100px',
   },
 
-  media: {
-    extraLarge: '(max-width: 1140px)',
-    large: '(max-width: 960px)',
-    medium: '(max-width: 720px)',
-    small: '(max-width: 540px)',
-  },
-
   sizis: {
     menu: '219px',
+  },
+
+  duration: {
+    normal: '250ms',
   },
 };
 

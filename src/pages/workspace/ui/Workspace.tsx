@@ -7,7 +7,9 @@ import * as S from './styled';
 const Workspace = () => (
   <S.Container>
     <Tools />
-    <Outlet />
+    <S.PageContainer>
+      <Outlet />
+    </S.PageContainer>
   </S.Container>
 );
 

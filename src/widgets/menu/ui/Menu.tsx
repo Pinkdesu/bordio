@@ -17,8 +17,8 @@ const Menu = () => {
     <S.Menu>
       <Logo />
       <S.MenuSearch />
-      <S.MenuNavLink to="/">
-        <C.Avatar src={userJPG} />
+      <S.MenuNavLink to="/workspace">
+        <C.Avatar src={userJPG} size="small" />
         <S.WorkspaceName>My workspace</S.WorkspaceName>
       </S.MenuNavLink>
       <S.FavoritesDetails items={FAVORITES_DATA} text="Favorites" renderItem={renderItem} />

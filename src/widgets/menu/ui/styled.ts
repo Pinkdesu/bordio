@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
+import { getTransition } from 'shared/helpers';
 import { Search } from 'shared/ui/search';
 import { Details } from 'shared/ui/details';
 
@@ -31,11 +32,15 @@ const MenuNavLink = styled(NavLink)`
   margin: 0 -1rem;
   padding: 0.375rem 1rem;
   line-height: 1rem;
-  transition: all 250ms linear;
+
+  ${({ theme }) => getTransition(theme.duration.normal)}
 
   &:hover,
   &.active {
     color: ${({ theme }) => theme.color.white};
+  }
+
+  &.active {
     background-color: ${({ theme }) => theme.color.ocean400};
   }
 `;

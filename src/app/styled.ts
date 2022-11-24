@@ -15,6 +15,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     height: 1px;
     min-height: 100vh;
+    background-color: ${({ theme }) => theme.color.gray500}
   }
 
   #root {
@@ -25,6 +26,10 @@ const GlobalStyles = createGlobalStyle`
     text-decoration: none;
   }
 
+  ul {
+    list-style: none;
+  }
+
   input {
     font-family: inherit;
   }
@@ -32,6 +37,8 @@ const GlobalStyles = createGlobalStyle`
   button {
     border: none;
     cursor: pointer;
+    border: none;
+    background: none;
   }
 `;
 

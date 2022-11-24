@@ -8,8 +8,6 @@ const Button = styled.button`
   display: flex;
   width: 100%;
   align-items: center;
-  border: none;
-  background: none;
 `;
 
 const MarkerIcon = styled.img.attrs({
@@ -18,7 +16,7 @@ const MarkerIcon = styled.img.attrs({
 })<MarkerProps>`
   width: 24px;
   height: 24px;
-  transform: ${({ isOpen }) => !isOpen && 'rotate(-180deg)'};
+  transform: ${({ isOpen }) => !isOpen && 'rotate(-90deg)'};
 `;
 
 const Text = styled.span`

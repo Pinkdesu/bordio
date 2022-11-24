@@ -4,6 +4,7 @@ interface ITheme {
     secondary: string;
     error: string;
 
+    black: string;
     white: string;
 
     ocean800: string;
@@ -23,14 +24,18 @@ interface ITheme {
     red400: string;
 
     gray800: string;
+    gray700: string;
+    gray600: string;
     gray500: string;
     gray400: string;
+    gray300: string;
 
     purple800: string;
     purple400: string;
   };
 
   font: {
+    tiny: string;
     small: string;
     normal: string;
     big: string;
@@ -48,15 +53,12 @@ interface ITheme {
     big: string;
   };
 
-  media: {
-    extraLarge: string;
-    large: string;
-    medium: string;
-    small: string;
-  };
-
   sizis: {
     menu: string;
+  };
+
+  duration: {
+    normal: string;
   };
 }
 

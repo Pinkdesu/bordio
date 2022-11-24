@@ -1,13 +1,25 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
-const SearchWrapper = styled.div`
+import { StylingProps } from './styled.types';
+
+const SearchWrapper = styled.div<StylingProps>`
   display: flex;
-  border-radius: ${({ theme }) => theme.radius.small};
-  padding-left: 0.625rem;
-  background-color: ${({ theme }) => theme.color.ocean500};
+
+  ${({ view, theme }) =>
+    view === 'primary'
+      ? css`
+          padding-left: 0.625rem;
+          border-radius: ${theme.radius.small};
+          background-color: ${theme.color.ocean500};
+        `
+      : css`
+          padding-left: 1rem;
+          border-radius: ${theme.radius.normal};
+          background-color: ${theme.color.gray500};
+        `}
 `;
 
-const SearchField = styled.input`
+const SearchField = styled.input<StylingProps>`
   display: inline;
   border: none;
   outline: none;
@@ -17,15 +29,23 @@ const SearchField = styled.input`
   color: ${({ theme }) => theme.color.secondary};
   font-size: ${({ theme }) => theme.font.normal};
   font-weight: ${({ theme }) => theme.fontWeight.normal};
-  line-height: 1;
-  padding: 0.5625rem 0;
+
+  ${({ view }) =>
+    view === 'primary'
+      ? css`
+          padding: 0.5625rem;
+          line-height: 0.875rem;
+        `
+      : css`
+          padding: 0.75rem;
+          line-height: 1rem;
+        `}
 `;
 
-const SerchButton = styled.button`
+const SerchButton = styled.button<StylingProps>`
   display: flex;
   align-items: center;
-  padding: 0 0.625rem;
-  background: none;
+  padding: 0 ${({ view }) => (view === 'primary' ? '0.625rem' : '1.125rem')};
 `;
 
 const ButtonIcon = styled.img`

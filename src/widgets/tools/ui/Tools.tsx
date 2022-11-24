@@ -11,11 +11,11 @@ const Tools = () => (
   <S.Container>
     <S.Header>Tools</S.Header>
     <S.Navigation>
-      <NavItem to="/roadmap" icon={<RoadmapSVG />} text="Roadmap" />
-      <NavItem to="/" icon={<ScheduleSVG />} text="Schedule" />
-      <NavItem to="/tasks" icon={<TasksSVG />} text="Tasks" />
-      <NavItem to="/notes" icon={<NotesSVG />} text="Notes" />
-      <NavItem to="/files" icon={<FilesSVG />} text="Files" />
+      <NavItem to="/workspace/roadmap" icon={<RoadmapSVG />} text="Roadmap" />
+      <NavItem to="/workspace/schedule" icon={<ScheduleSVG />} text="Schedule" />
+      <NavItem to="/workspace/tasks" icon={<TasksSVG />} text="Tasks" />
+      <NavItem to="/workspace/notes" icon={<NotesSVG />} text="Notes" />
+      <NavItem to="/workspace/files" icon={<FilesSVG />} text="Files" />
     </S.Navigation>
   </S.Container>
 );
