@@ -4,7 +4,7 @@ import { Button } from 'shared/ui/button';
 import { Select, Option } from 'shared/ui/select';
 import { ReactComponent as PlusSVG } from 'shared/assets/icons/plus.svg';
 
-import { FIRST_FILTER_OPTIONS, SECOND_FILTER_OPTIONS } from '../../lib';
+import { FIRST_FILTER_OPTIONS, SECOND_FILTER_OPTIONS } from '../../model';
 import * as S from '../styled';
 
 const LeftSide = () => {

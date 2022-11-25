@@ -35,6 +35,7 @@ const BOARD_DATA: IBoardColumn[] = [
   {
     id: 'new-task',
     label: 'New task',
+    status: Status.New,
     items: [
       {
         id: 1,
@@ -69,6 +70,7 @@ const BOARD_DATA: IBoardColumn[] = [
   {
     id: 'scheduled',
     label: 'Scheduled',
+    status: Status.Scheduled,
     items: [
       {
         id: 5,
@@ -96,6 +98,7 @@ const BOARD_DATA: IBoardColumn[] = [
   {
     id: 'in-progress',
     label: 'In progress',
+    status: Status.InProgress,
     items: [
       {
         id: 8,
@@ -123,6 +126,7 @@ const BOARD_DATA: IBoardColumn[] = [
   {
     id: 'completed',
     label: 'Completed',
+    status: Status.Completed,
     items: [
       {
         id: 11,

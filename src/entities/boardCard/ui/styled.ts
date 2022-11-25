@@ -7,6 +7,10 @@ const Container = styled.article<CardStyle>`
   border-radius: ${({ theme }) => theme.radius.small};
   background-color: ${({ theme, cardStyle, isCompleted }) =>
     isCompleted ? theme.color.gray400 : cardStyle.backgroundColor};
+
+  &:hover {
+    cursor: grab;
+  }
 `;
 
 const Description = styled.p<Pick<CardStyle, 'isCompleted'>>`
