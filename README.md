@@ -8,4 +8,4 @@ Stack:
 - DragAndDrop;
 - React router dom v6.
 
-**View: **
+**View: https://bordio-unodesu.vercel.app/workspace**
